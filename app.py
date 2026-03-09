@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello_world():
     return 'hello world'
 
-@app.route('/analisa-nama')
+@app.route('/analisa-kesit')
 def analisa_nama():
     return 'data dari parikesit'
 
