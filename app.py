@@ -6,9 +6,9 @@ app = Flask(__name__)
 def hello_world():
     return 'hello world'
 
-@app.route('/analisa-data')
-def analisa_data():
-    return 'kesit'
+@app.route('/analisa-nama')
+def analisa_nama():
+    return 'data dari parikesit'
 
 if __name__ == '__main__':    
     app.run(host='0.0.0.0', port=5000)
